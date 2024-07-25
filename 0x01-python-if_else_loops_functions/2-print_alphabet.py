@@ -5,4 +5,4 @@
 
 for ascii_code in range (97, 123):
 
-print("{:c}".format(ascii_code), end='')
+print(''.join([chr(i) for i in range(ord('a'), ord('z') + 1)]), end='')
