@@ -1,5 +1,5 @@
 0x03. Python - Data Structures: Lists, Tuples
-Learning Objectives:expected to be able to explain to anyone
+Learning Objectives:
 Why Python programming is awesome
 What are lists and how to use them
 What are the differences and similarities between strings and lists
@@ -12,4 +12,3 @@ What is a sequence
 What is tuple packing
 What is sequence unpacking
 What is the del statement and how to use it
-etc.
