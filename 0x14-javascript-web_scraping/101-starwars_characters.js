@@ -31,3 +31,4 @@ const getCharacters = (index) => {
     console.log(characterData.name);
     getCharacters(index + 1);
   });
+};
