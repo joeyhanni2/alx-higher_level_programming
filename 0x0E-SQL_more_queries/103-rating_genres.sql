@@ -1,4 +1,4 @@
--- Script that lists genre by their rating
+-- Script that lists genres by their rating
 SELECT tv_genres.name, SUM(tv_show_ratings.rate) AS rating -- Query to join tables
 FROM tv_genres
 JOIN tv_show_genres
@@ -6,6 +6,6 @@ JOIN tv_show_genres
 JOIN tv_shows
      ON tv_show_genres.show_id = tv_shows.id
 JOIN tv_show_ratings
-     ON tv_show_genres.show_id = tv_shows.id
-GROUP BY tv_genre.name
+     ON tv_show_ratings.show_id = tv_shows.id
+GROUP BY tv_genres.name
 ORDER BY rating DESC;
